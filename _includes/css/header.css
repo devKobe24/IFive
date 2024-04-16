@@ -1,0 +1,74 @@
+/* header.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
+.poppins {
+	font-family: "Poppins", sans-serif;
+}
+.varela {
+	font-family: "Varela Round", sans-serif;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:link, a:visited{
+    color:inherit;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    position: absolute; /* absolute -> fixed */
+    color: black; /* black*/
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    padding: 10px;
+}
+header button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+header h1 button{
+    font-size: 2rem;
+    font-weight: bold;
+}
+header nav ul li button{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+header.active{
+    background-color: rgba(0, 0, 0);
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* end header css */
