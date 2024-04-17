@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap');
+
+/* ---------------소개페이지 css 추가 이세원--------------- */
+
+.introbox{
+    width: 700px;
+    margin: 100px auto 0px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogbtn > button {
+    margin: 20px 10px 0px 10px;
+}

@@ -35,3 +35,81 @@ for(let i = 0; i < scollMoveEl.length; i++){
   });
 }
 /* End scroll.js */
+
+// ---------페이지 이동 이세원 추가---------
+
+main = 'index.html';
+
+
+function gomain(){
+    location.href = main;
+}
+
+
+kms = 'teamintroKMS.html';
+
+function gokms(){
+    location.href = kms;
+}
+
+
+khj = 'teamintroKHJ.html';
+
+function gokhj(){
+    location.href = khj;
+}
+
+
+pkh = 'teamintroPKH.html';
+
+function gopkh(){
+    location.href = pkh;
+}
+
+
+lsw = 'teamintroLSW.html';
+
+function golsw(){
+    location.href = lsw;
+}
+
+
+chj = 'teamintroCHJ.html';
+
+function gochj(){
+    location.href = chj;
+}
+
+
+
+
+blog1 = "https://leesw1945.tistory.com/";
+
+function goblog1(){
+    location.href = blog1;
+}
+
+blog2 = "https://www.devkobe24.com/";
+
+function goblog2(){
+    location.href = blog2;
+}
+
+blog3 = "https://heimish962.tistory.com/";
+
+function goblog3(){
+    location.href = blog3;
+}
+
+blog4 = "https://velog.io/@poisson/posts";
+
+function goblog4(){
+    location.href = blog4;
+}
+
+blog5 = "https://velog.io/@pk_hyun/posts";
+
+function goblog5(){
+    location.href = blog5;
+}
+
