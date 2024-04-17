@@ -1,0 +1,33 @@
+/* card.css */
+.card-group {
+    width: 70%;
+    margin: 70px auto 70px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+/* .card-group .card {
+    width: 23vw;
+    flex: 1 0 300px;
+    cursor: pointer;
+} */
+
+.card-group .card:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* .card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+} */
+
+/* .card-footer {
+    display: flex;
+} */
