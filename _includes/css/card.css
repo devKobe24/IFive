@@ -14,3 +14,13 @@
 .card-group .card:hover {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
