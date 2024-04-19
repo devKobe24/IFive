@@ -114,7 +114,7 @@ function goblog5() {
 }
 
 
-//날씨, 기온 추가
+//------------날씨, 기온 추가 이세원----------
 $(document).ready(function () {
     let url = "http://spartacodingclub.shop/sparta_api/weather/seoul";
     fetch(url).then(res => res.json()).then(data => {
